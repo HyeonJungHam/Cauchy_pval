@@ -11,6 +11,7 @@ To use the function with method="Cauchy", you need to install "reticulate" packa
 Then, 'numpy' and 'mpmath' modules are required. This can be installed in R using following commands. <br />
 
 <pre>
+library(reticulate) 
 conda_install("r-reticulate", "numpy") 
 conda_install("r-reticulate", "mpmath")
 </pre>
