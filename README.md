@@ -22,8 +22,10 @@ The matrix should have markers (rows) x methods (columns) format. <br />
 When only single marker is provided, covariance of Kost method cannot be calculated. Users should provide the covariance matrix separately. <br />
 
 # **Usage**
+<pre>
 combine_pvalue <- function(mat, 
                            method = c("Fisher", "MinP", "Simes", "Stouffer", "Kost", "Cauchy"), 
                            cov = NULL, 
                            Cauchy_input_path = "./Cauchy_input/", 
                            Cauchy_output_path = "./Cauchy_output/")
+</pre>
