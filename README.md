@@ -10,8 +10,10 @@ To use the function with method="Cauchy", you need to install "reticulate" packa
 
 Then, 'numpy' and 'mpmath' modules are required. This can be installed in R using following commands. <br />
 
-**conda_install("r-reticulate", "numpy") <br />**
-**conda_install("r-reticulate", "mpmath") <br />**
+<pre>
+conda_install("r-reticulate", "numpy") 
+conda_install("r-reticulate", "mpmath")
+</pre>
 
 "p_value_combination_function_main.R" includes a virtual p-value matrix. <br />
 
